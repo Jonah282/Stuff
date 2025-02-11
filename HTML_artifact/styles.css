@@ -1,5 +1,6 @@
 body {
     background-color: powderblue;
+    margin: 20px;
 }
 h1, h2, h3, h4, h5, h6, p {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
@@ -21,4 +22,29 @@ select {
 
 .radio-container {
     margin-bottom: 10px;
+}
+
+.select-section {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #8db8c5;
+    padding: 15px;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.name-section {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #8db8c5;
+    padding: 15px;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background: #8db8c5;
+    font-size: 17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    border-radius: 5px;
 }

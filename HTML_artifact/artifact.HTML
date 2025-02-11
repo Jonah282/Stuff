@@ -9,20 +9,22 @@
 <body>
     <h1>Car Quiz</h1>
     <form name="form" id="form" action="info.html">
-        <label for="namefield">What is your name?</label>
+        <div class="name-section">
+           <label for="namefield">What is your name?</label>
+           <br>
+           <input type="text" id="namefield" name="name" placeholder="your name"> 
+        </div>
         <br>
-        <input type="text" id="namefield" name="name" placeholder="your name">
-        <br>
-        <br>
-        <label for="selectfield">What is your favorite car brand?</label>
-        <br>
-        <select id="selectfield" name="select">
+        <div class="select-section">
+            <label for="selectfield">What is your favorite car brand?</label>
+            <br>
+            <select id="selectfield" name="select">
             <option value="subaru">Subaru</option>
             <option value="toyota">Toyota</option>
             <option value="bmw">BMW</option>
             <option value="ferrari">Ferrari</option>
         </select>
-        <br>
+        </div>
         <br>
         <div class="radio-section">
             <label for="coolcar">Which is the best looking car?</label>
