@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Car Quiz</title>
+</head>
+<body>
+    <h1>Car Quiz</h1>
+    <form name="form" id="form" action="info.html">
+        <label for="namefield">What is your name?</label>
+        <br>
+        <input type="text" id="namefield" name="name" placeholder="your name">
+        <br>
+        <br>
+        <label for="selectfield">What is your favorite car brand?</label>
+        <br>
+        <select id="selectfield" name="select">
+            <option value="subaru">Subaru</option>
+            <option value="toyota">Toyota</option>
+            <option value="bmw">BMW</option>
+            <option value="ferrari">Ferrari</option>
+        </select>
+        <br>
+        <br>
+        <div class="radio-section">
+            <label for="coolcar">Which is the best looking car?</label>
+            <br>
+        
+            <div class="radio-container">
+                <input type="radio" id="ferrari_f40" name="coolcar" value="Ferrari F40">
+                <label for="ferrari_f40">Ferrari F40</label>
+                <br>
+                <img src="https://radical-mag.com/wp-content/uploads/2022/12/F40-77676-1-1920x1280.jpeg" alt="Ferrari F40" style="width: 300px;">
+            </div>
+        
+            <div class="radio-container">
+                <input type="radio" id="mazda_rx7" name="coolcar" value="Mazda RX7">
+                <label for="mazda_rx7">Mazda RX-7</label>
+                <br>
+                <img src="https://images.pexels.com/photos/9070626/pexels-photo-9070626.jpeg?cs=srgb&dl=pexels-wearelivingart-9070626.jpg&fm=jpg" alt="Mazda RX-7" style="width: 300px;">
+            </div>
+        
+            <div class="radio-container">
+                <input type="radio" id="supra" name="coolcar" value="Toyota MK3 Supra">
+                <label for="supra">Toyota MK3 Supra</label>
+                <br>
+                <img src="https://i.redd.it/c9oog3gd77j41.jpg" alt="Toyota MK3 Supra" style="width: 300px;">
+            </div>
+        </div>
+        <br>
+        <input type="submit" id="submitfield">
+    </form>
+</body>
+</html>
